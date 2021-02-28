@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="countDownTimer">
+        <section class="container">
+            <h2>Count Down Timer</h2>
+            <section id="eventForm">
+                <form>
+                    <div id="eventDetails">
+                        <label for="eventName">Event Name</label>
+                        <input type="text" name="eventName" id="eventName" placeholder="Event Name">
+                    </div>
+                    <div>
+                        <label for="startDate">Start Date</label>
+                        <input type="date" name="startDate" id="startDate">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="endDate">Event Date</label>
+                            <input type="date" name="endDate" id="endDate">
+                        </div>
+                        <div>
+                            <label for="endTime">Event Time</label>
+                            <input type="time" name="endTime" id="endTime">
+                        </div>
+                    </div>
+                    <button  id="submitButton" type="submit">Start</button>
+                </form>
+            </section>
+            <section id="eventResult">
+                <div>
+                    <p id="eventNameUpdate"></p>
+                </div>
+                <div id="timeCount">
+                    <div class="eventCounter">
+                        <div>
+                            <p id="eventTimeLeft"></p>
+                        </div>
+                        <div class="countElements">
+                            <p id="days"></p>
+                            <p id="hours"></p>
+                            <p id="mins"></p>
+                            <p id="secs"></p>
+                        </div>
+                    </div>
+                    <p id="eventUpdate"></p>
+                    <p id="weekDays"></p>
+                </div>
+            </section>
+        </section>
+    </section>
+<script src="app.js"></script>
+</body>
+</html>

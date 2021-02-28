@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-size: 1.2rem;
+    background-color: rgb(241, 241, 241);
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+#countDownTimer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container {
+    margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form div {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 250px;
+    border-style: none;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+button {
+    border-style: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 2px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: rgb(5, 63, 255);
+    color: white;
+}
+
+#eventResult {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#eventResult div {
+display: flex;
+flex-direction: column;
+}
+
+.eventCounter {
+    /* width: 350px; */
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    /* background-color: rgb(238, 242, 255); */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timeCount .countElements {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#timeCount .countElements p {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#eventTimeLeft {
+    font-weight: 300;
+    color: rgb(78, 78, 78);
+}
+
+#eventUpdate {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#eventNameUpdate {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: rgb(126, 126, 126);
+}
+
+#weekDays {
+    font-size: 1.5rem;
+
+}
